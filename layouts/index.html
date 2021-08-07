@@ -10,10 +10,10 @@
             {{ end }}
 
             <h1>{{ .Site.Title }}</h1>
-            {{- with .Site.Params.homeSubtitle }}
+            {{- with .Site.Params.author }}
                 <p>{{.}}</p>
             {{- end }}
-            {{- with .Site.Params.author }}
+            {{- with .Site.Params.homeSubtitle }}
                 <p>{{.}}</p>
             {{- end }}
 
